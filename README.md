@@ -7,31 +7,7 @@ The platform simulates high-volume digital payment transactions and provides mul
 
 ---
 
-## 2. Project Structure
-
-upi-observability-platform/
-
-├── dataset/
-│   └── UPI_PAYMENT_DATASET.csv
-│
-├── screenshots/
-│
-├── documentation/
-│   └── project_report.pdf
-│
-├── powerbi/
-│   └── upi_dashboard.pbix
-│
-├── web-app/
-│   ├── src/
-│   ├── components/
-│   └── charts/
-│
-└── README.md
-
----
-
-## 3. Technology Stack
+## 2. Technology Stack
 
 Data Processing:
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
@@ -52,7 +28,7 @@ Frontend:
 
 ---
 
-## 4. Architecture
+## 3. Architecture
 
 Python Data Generator
         ↓
@@ -70,7 +46,7 @@ Power BI Dashboard / Web Dashboard
 
 ---
 
-## 5. Key Features
+## 4. Key Features
 
 - KPI Monitoring (Total Transactions, Success Rate, Latency)
 - Time-Based Analysis
@@ -82,7 +58,7 @@ Power BI Dashboard / Web Dashboard
 
 ---
 
-## 6. Execution
+## 5. Execution
 
 Power BI:
 Open powerbi/upi_dashboard.pbix
@@ -97,7 +73,7 @@ pip install pandas matplotlib seaborn
 
 ---
 
-## 7. Conclusion
+## 6. Conclusion
 
 This project demonstrates a scalable analytics system for monitoring digital payment transactions using modern tools and cloud architecture.
 
